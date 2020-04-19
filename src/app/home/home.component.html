@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 m-5">
+            <h4 class="centro">CSV to JSON</h4>
+            <h5 class="centro">or</h5>
+            <h4 class="centro">JSON to CSV</h4>
+            <div>
+
+            </div>
+            <div class="row mt-5">
+                <div class="form-group col-md-6">
+                    <input (click)="csvToJson()" name="" id="" class="btn btn-dark centro" type="button"
+                        value="CSV to JSON">
+                    <hr style="background-color: white">
+                    <textarea class="form-control" [(ngModel)]="csv" rows="30"></textarea>
+                </div>
+                <div class="form-group col-md-6">
+                    <input (click)="jsonToCsv()" name="" id="" class="btn btn-dark centro" type="button"
+                        value="JSON to CSV">
+                    <hr style="background-color: white">
+                    <textarea class="form-control" [(ngModel)]="json" id="json" rows="30"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
