@@ -22,10 +22,10 @@ conversion.
 
 ## User Stories
 
--   [ ] User can paste CSV syntax into a text box
--   [ ] User can click a 'Convert to JSON' button to validate the CSV text box and convert it to JSON
+-   [x] User can paste CSV syntax into a text box
+-   [x] User can click a 'Convert to JSON' button to validate the CSV text box and convert it to JSON
 -   [ ] User can see an warning message if the CSV text box is empty or if it doesn't contain valid CSV
--   [ ] User can see the converted CSV in the JSON text box
+-   [x] User can see the converted CSV in the JSON text box
 
 ### Stories already implemented in JSON2CSV 
 -   [ ] User can paste JSON syntax into a text box
